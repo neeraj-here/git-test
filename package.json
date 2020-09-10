@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "learning git and node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeraj-here/git-test.git"
+  },
+  "author": "Neeraj Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neeraj-here/git-test/issues"
+  },
+  "homepage": "https://github.com/neeraj-here/git-test#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
